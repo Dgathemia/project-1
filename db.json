@@ -1,0 +1,30 @@
+{
+
+  "propertyData" : [
+
+     {
+       "name": "kanyotu",
+       "imageurl": "./img/160690142_3976266365752680_3709142088583596216_n.jpg",
+       "description": "not a true house",
+       "bids": 0
+     },
+
+     {
+        "name": "kanyotu2",
+        "imageurl": "./img/160719389_2840737039587918_5073456987172963175_n.jpg",
+        "description": "not a true house",
+        "bids": 0
+      },
+
+      {
+        "name": "kanyotu3",
+        "imageurl": "./img/161000072_1320418541669062_5190576231563882561_n.jpg",
+        "description": "not a true house",
+        "bids": 0
+      }
+
+
+  ]
+
+
+}

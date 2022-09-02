@@ -1,0 +1,41 @@
+header{
+    display: flex;
+}
+.container {
+    color: black;
+    background-color: #dfb78c;
+    border: none;
+    height: 80px;
+    width: 250 px;
+    border-radius: 40px;
+    font-weight: bolder;
+    font-size: 32px;
+    padding: 5px;
+
+}
+#ppty-form{
+    padding: 15px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    color: #3b5265;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27.2px;
+    line-height: 1.7rem;
+
+}
+
+#products{
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #3b5265;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27.2px;
+    line-height: 1.7rem;
+
+}
+
+
+
