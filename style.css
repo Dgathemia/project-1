@@ -26,17 +26,15 @@ header{
 }
 
 #products{
-    position: relative;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     color: #3b5265;
     font-weight: 400;
     font-size: 14px;
-    line-height: 27.2px;
-    line-height: 1.7rem;
-    line-break: auto;
+   
 
 }
+
 
 
 
