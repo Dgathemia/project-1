@@ -1,20 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="./index.js"></script>
-    <link rel="stylesheet" href="./style.css"/>
-    <title>realEstate</title>
-</head>
-<body> 
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script defer src="./index.js"></script>
+        <link rel="stylesheet" href="./style.css"/>
+        <title>realEstate</title>
+    </head>
 
-    <header id="menu">
-      <h1>welcome to real estate</h1>
-    </header>
+<body>
+    
+    <div class="navbar navbar-default">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><img class="logo" src="img/light-small.png" alt=""></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </div>
 
-    <p>Type or paste any message, email, or comment and select your preferred tone and direction. ParagraphAI will instantly draft an accurate and grammatically correct response. Our AI-Powered Chrome extension writes clear, concise, and error-free messages in seconds.</p>
+
+    <div class="banner">
+        <h1>Great Property At Great Prices.</h1>
+    </div>
+
+    <div class="background-container">
+
+    <h3 id="products">PRODUCTS</h3>
+    <div class="product-container">
+        <div class="card">
+            <div class="product1"></div>
+            <h4>Mansions</h4>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="card">
+            <div class="product2"></div>
+            <h4>bungallows</h4>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="card">
+            <div class="product3"></div>
+            <h4>Mansions</h4>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="card">
+            <div class="product4"></div>
+            <h4>Apartments</h4>
+            <button class="btn">Buy Now</button>
+        </div>
+    </div>
+   
+
+    <div id="about" class="about">
+        <h2>About Us</h2>
+        <p>This website was created to develop my HTML,javascript and CSS skills. It is created for a small generic retail business which sells Property. I created the concept from scratch and based the website on that!</p>
+    </div>
 
     <div class= "container">
         <form id="ppty-form" action="#" method="post">
@@ -36,64 +78,19 @@
     </div>
 
 
-    <section id="products">
-        
+    <div id="contact" class="card contact-form">
+        <h3>Contact Us</h3>
+        <!-- <form action="/action_page.php"> -->
+            <input type="email" name="email" placeholder="name@email.com">
+            <textarea id="message" name="text" placeholder="Enter Message here..."></textarea>
+            <button class="btn submit-form" type="submit">Submit</button>
+        </form>
+    </div>
 
-        <div class="card">
-        <img src='./img/160690142_3976266365752680_3709142088583596216_n.jpg'class="card-ing-top" alt="..." width="550px" height="550px">
-        <div class="card-body">
-            <h5 class="card-title">card title</h5>
-            <p class="card-text">this thing is something else</p>
-
-            this is a button to buy
-
-            <button class="btn" type=button onclick="'alert'('hello')">like me!</button>
-        </div> 
-
-        <div class="card2">
-            <img src='./img/160719389_2840737039587918_5073456987172963175_n.jpg'class="card-ing-top" alt="..." width="550px" height="550px">
-            <div class="card-body">
-                <h5 class="card-title">card title</h5>
-                <p class="card-text">this thing is something else</p>
-
-                this is a button to buy
-
-                <a href="#" class="btn btn-primary">go somewhere</a>
-            </div>
-            </div> 
-
-
-        <div class="card3">
-            <img src='./img/161000072_1320418541669062_5190576231563882561_n.jpg'class="card-ing-top" alt="..." width="550px" height="550px">
-            <div class="card-body">
-                <h5 class="card-title">card title</h5>
-                <p class="card-text">this thing is something else</p>
-
-                this is a button to buy'
-
-                <a href="#" class="btn btn-primary">go somewhere</a>
-            </div>
-            </div> 
-
-
-    </section>
+    <footer>
+        <p>PROPERTY MARKETPLACE</p>
+    </footer>
     
-    
+</div>
 </body>
 </html>
-
-<!--
-//adding abtn
-<btn class="btn">buy now</button>
-
-    //adding btn using link
-    
-<a href="#" class="btn">buy now</a>
-
-
-// adding section to code
-<section id="products">
-    
-</section>
-
--->
