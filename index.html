@@ -33,22 +33,22 @@
         <div class="card">
             <div class="product1"></div>
             <h4>Mansions</h4>
-            <button class="btn">Bid Now</button>
+            <button onclick="window.location.href='#propertyChosen'" class="btn">Bid Now</button>
         </div>
         <div class="card">
             <div class="product2"></div>
             <h4>bungallows</h4>
-            <button class="btn">Bid Now</button>
+            <button  onclick="window.location.href='#propertyChosen'" class="btn">Bid Now</button>
         </div>
         <div class="card">
             <div class="product3"></div>
             <h4>Mansions</h4>
-            <button class="btn">Bid Now</button>
+            <button  onclick="window.location.href='#propertyChosen'" class="btn">Bid Now</button>
         </div>
         <div class="card">
             <div class="product4"></div>
             <h4>Apartments</h4>
-            <button class="btn">Bid Now</button>
+            <button  onclick="window.location.href='#propertyChosen'" class="btn">Bid Now</button>
         </div>
     </div>
    
@@ -59,22 +59,20 @@
     </div>
 
     <div class= "container">
-        <h5>post your Property</h5>
-        <form id="ppty-form" action="#" method="post">
+        <h5 id="propertyChosen">post your Property</h5>
+        <form id="ppty-form">
+            <h4>The following properties are available</h4>
+            <p> 1. Mansion</p>
+            <p>2. Bungalow</p>
+            <p>3. Apartment</p>
 
-            <label id='name' for="name">name</label>
-            <input type="text" id="fname" name="fname" value="names">
-
-            <label for="name">img url</label>
-            <input type=text id="img" name="id" value="images">
-
-            <label for="description">description</label>
-            <textarea id="description" name="description" value="comment"></textarea>
+            <label for="title">Enter the property ID</label>
+            <input type="text" id="propertyTitle" placeholder="Enter you property ID here ie. 3">
 
             <button class="btn" type="submit">post ppty</button>
         </form>
-        <ul id="ppty-list" class="cards">
-            <!--ppty here-->
+        <ul id="ppty-list">
+            <h5>CHOSEN PROPERTY</h5>
         </ul>
     </div>
 
@@ -85,7 +83,7 @@
             <input type="email" name="email" placeholder="name@email.com">
             <textarea id="message" name="text" placeholder="Enter Message here..."></textarea>
             <button class="btn submit-form" type="submit">Submit</button>
-        </form>
+
     </div>
 
     <footer>
