@@ -1,1 +1,2 @@
 # project-1
+this is a simple property auction website for property auction where you bid for available property on auction by clicking on bid on any of the available  property, input your details and reserve a bid and after a sellection of the best bidder the property is sold.

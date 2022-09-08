@@ -302,7 +302,7 @@ footer p{
 
 @media(max-width:600px){
     body{
-        background: url(../img/NMD-Black-600.png);
+        background: url(./img/nairobi.jpg);
         background-size: auto;
         background-position: top;
     }
