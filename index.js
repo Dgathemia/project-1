@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', () =>{
     })
    
     function addPpty() {
-        
+
         const title = document.createElement('h2');
-        const img = document.createElement('div'); 
-        const description = document.createElement('h3')
+        const location = document.createElement('div'); 
+        const details = document.createElement('h3')
         const bids = document.createElement('h3');
         
       
@@ -27,9 +27,9 @@ document.addEventListener('DOMContentLoaded', () =>{
              
                title.innerText = data.title;
    
-               description.innerText = data.description;
+               location.innerText = data.location;
    
-               img.innerText=data.imageurl
+               details.innerText=data.details;
               
                bids.innerText = data.bids;
               
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () =>{
            const container = document.createElement('div')
            container.setAttribute('id', 'container')
            
-           container.append(title,description,img,bids)
+           container.append(title,details,location,bids)
            
            const myDiv = document.getElementById("ppty-list")
            myDiv.append(container)

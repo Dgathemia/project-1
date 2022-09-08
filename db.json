@@ -3,28 +3,28 @@
   "propertyData" : [
 
      {
-       "title": "mansion",
+      "id": 1,
+       "title": "Mansion",
        "location": "Nairobi",
-       "description": "not a true house",
-       "price": "1.5m",
-       "bids": 0
-
-     },
+       "details": "not a true house",
+       "bids": 5040020
+      
+      },
 
      {
-        "title": "bangalo",
+        "id": 2,
+        "title": "Bungalow",
         "location": "Mombasa",
-        "description": "not a true house",
-        "price": "1.5m",
-        "bids": 0
+        "details": "not a true house",
+        "bids": 7005000
       },
 
       {
-        "title": "appartment",
+        "id": 3,
+        "title": "Apartment",
         "location": "Kisumu",
-        "description": "not a true house",
-        "price": "1.5m",
-        "bids": 0
+        "details": "not a true house",
+        "bids": 9800500
       }
 
 
